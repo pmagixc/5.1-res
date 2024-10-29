@@ -1,0 +1,90 @@
+{
+  "Bullet_Alternate_01": {
+    "$type": "ADFAEEFICKI",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isLockHP": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      },
+      "animEvents": {
+        "ATK01": {
+          "attackPattern": {
+            "$type": "KENCCOGAAGD",
+            "triggerType": "TriggerNoRepeat",
+            "checkHitLayerType": "Both",
+            "born": {
+              "$type": "GPCCHEEOOPO",
+              "offset": {
+                "CDIPBMJGKAG": 0.0,
+                "FLCEJHPAGJE": 0.0,
+                "PALGCCNEAFJ": -0.5
+              }
+            },
+            "size": {
+              "CDIPBMJGKAG": 0.10000000149011612,
+              "FLCEJHPAGJE": 0.10000000149011612,
+              "PALGCCNEAFJ": 1.0
+            }
+          },
+          "attackInfo": {
+            "attackTag": "",
+            "attenuationTag": "",
+            "attenuationGroup": "default",
+            "attackProperty": {
+              "actorGrassSubHurtDelta": 1.0,
+              "actorElementReactionCriticalHurtDelta": 0.0,
+              "KAMIECGOHOF": 100.0,
+              "strikeType": "Pierce",
+              "MOAKOIFHAIA": 0.0
+            },
+            "hitPattern": {
+              "onHitEffectName": "default",
+              "hitImpulseY": "",
+              "hitImpulseType": "LV1",
+              "hitHaltTimeScale": 0.009999999776482582
+            },
+            "canBeModifiedBy": "OriginOwner"
+          }
+        }
+      }
+    },
+    "combatTemplate": "",
+    "timer": {
+      "lifeTime": 8.0
+    },
+    "move": {
+      "$type": "BIHLEDNDMHM",
+      "speed": 30.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      },
+      "straightRange": 40.0,
+      "gravityOfAcceleration": 10.0,
+      "airResistance": 0.009999999776482582
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "CIKKBEDPGNM",
+          "attackEvent": "ATK01"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "Monster_FauneAbyssale_MantaRay_Bullet": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Damage",
+        "abilityName": "Monster_FauneAbyssale_MantaRay_Bullet",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 4.0
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "velocityForce": {
+        "muteAll": true
+      },
+      "speed": 7.5,
+      "maxSpeed": 7.5,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_MantaRay_Bullet"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_MantaRay_Bullet"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_MantaRay_Large_Bullet": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Damage",
+        "abilityName": "Monster_FauneAbyssale_MantaRay_Large_Bullet",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 4.0
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "velocityForce": {
+        "muteAll": true
+      },
+      "speed": 7.5,
+      "maxSpeed": 7.5,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_MantaRay_Large_Bullet"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_MantaRay_Large_Bullet"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_MantaRay_BladeBullet": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      },
+      "animEvents": {
+        "Atk": {
+          "attackPattern": {
+            "$type": "MMOOLAGJPJK",
+            "triggerType": "TriggerNoRepeat",
+            "born": {
+              "$type": "GPCCHEEOOPO"
+            },
+            "LGPPLOHDCAH": 0.009999999776482582
+          },
+          "attackInfo": {
+            "attackTag": "",
+            "attenuationTag": "",
+            "attenuationGroup": "default",
+            "attackProperty": {
+              "actorGrassSubHurtDelta": 0.5,
+              "actorElementReactionCriticalHurtDelta": 0.0,
+              "elementType": "Water",
+              "KAMIECGOHOF": 0.0,
+              "strikeType": "Slash",
+              "enBreak": 50.0,
+              "MOAKOIFHAIA": 0.0
+            },
+            "hitPattern": {
+              "onHitEffectName": "default",
+              "hitImpulseY": "",
+              "hitImpulseType": "LV1"
+            }
+          }
+        }
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "Monster_FauneAbyssale_MantaRay_Ult_Bullet01_Weak_BulletVFX",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 2.5
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "velocityForce": {
+        "muteAll": true
+      },
+      "speed": 26.0,
+      "maxSpeed": 26.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "ccd": {
+          "damageRatio": "Always"
+        },
+        "triggerType": "TriggerNoRepeat",
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_MantaRay_Ult_Bullet01_Weak_BulletVFX"
+        },
+        {
+          "$type": "CIKKBEDPGNM",
+          "attackEvent": "Atk"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_MantaRay_BladeBullet_Ult1": {
+    "$type": "ADFAEEFICKI",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      },
+      "animEvents": {
+        "Atk": {
+          "attackPattern": {
+            "$type": "MMOOLAGJPJK",
+            "triggerType": "TriggerNoRepeat",
+            "born": {
+              "$type": "GPCCHEEOOPO"
+            },
+            "LGPPLOHDCAH": 0.009999999776482582
+          },
+          "attackInfo": {
+            "attackTag": "BladeBullet_Ult",
+            "attenuationTag": "",
+            "attenuationGroup": "default",
+            "attackProperty": {
+              "actorGrassSubHurtDelta": 0.0,
+              "actorElementReactionCriticalHurtDelta": 0.0,
+              "elementType": "Water",
+              "KAMIECGOHOF": 0.0,
+              "strikeType": "Slash",
+              "enBreak": 200.0,
+              "MOAKOIFHAIA": 0.0
+            },
+            "hitPattern": {
+              "onHitEffectName": "default",
+              "hitImpulseY": "",
+              "hitImpulseType": "LV4"
+            }
+          }
+        }
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "Monster_FauneAbyssale_MantaRay_Ult_Bullet01_BulletVFX",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 1.600000023841858
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "velocityForce": {
+        "muteAll": true
+      },
+      "speed": 41.0,
+      "maxSpeed": 41.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "ccd": {
+          "damageRatio": "Always"
+        },
+        "triggerType": "TriggerNoRepeat",
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_MantaRay_Ult_Bullet01_BulletVFX"
+        },
+        {
+          "$type": "CIKKBEDPGNM",
+          "attackEvent": "Atk"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_MantaRay_SlashPoint": {
+    "$type": "ADFAEEFICKI",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isLockHP": true
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "lockType": "Avatar&Monster_Lv4"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "Monster_FauneAbyssale_MantaRay_SlashPoint",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 7.0
+    },
+    "billboard": {
+      "$type": "PNDKMHNPMEA",
+      "attachPoint": "BillboardAttach",
+      "offset": {
+        "y": 0.5
+      },
+      "radiusOffset": 0.5,
+      "showDistance": 48.0,
+      "showHPBar": true,
+      "forceShowDistance": 30.0,
+      "shieldBarOnly": true
+    }
+  }
+}

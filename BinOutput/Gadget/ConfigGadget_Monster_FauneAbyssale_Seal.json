@@ -1,0 +1,157 @@
+{
+  "Monster_FauneAbyssale_Seal_Bullet": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleZ": 0.4000000059604645
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Loop",
+        "abilityName": "Monster_FauneAbyssale_Seal_Bullet_Loop",
+        "abilityOverride": ""
+      },
+      {
+        "abilityID": "Explode",
+        "abilityName": "Monster_FauneAbyssale_Seal_Bullet_Explode",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 5.0
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "velocityForce": {
+        "muteAll": true
+      },
+      "speed": 5.0,
+      "maxSpeed": 5.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_Seal_Bullet_Explode"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_Seal_EnhanceBullet": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleZ": 0.4000000059604645
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Loop",
+        "abilityName": "Monster_FauneAbyssale_Seal_EnhanceBullet_Loop",
+        "abilityOverride": ""
+      },
+      {
+        "abilityID": "Explode",
+        "abilityName": "Monster_FauneAbyssale_Seal_EnhanceBullet_Explode",
+        "abilityOverride": ""
+      },
+      {
+        "abilityID": "AS",
+        "abilityName": "Monster_FauneAbyssale_Seal_EnhanceBullet_AS",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 5.0
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "velocityForce": {
+        "muteAll": true
+      },
+      "speed": 5.0,
+      "maxSpeed": 5.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_Seal_EnhanceBullet_Explode"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_Seal_EnhanceBullet_AS"
+        }
+      ],
+      "killByOther": true
+    }
+  }
+}

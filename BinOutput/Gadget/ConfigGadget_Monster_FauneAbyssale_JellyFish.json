@@ -1,0 +1,484 @@
+{
+  "Monster_FauneAbyssale_Jelly_Bullet": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleZ": 0.4000000059604645
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Loop",
+        "abilityName": "Monster_FauneAbyssale_JellyFish_Bullet_Loop",
+        "abilityOverride": ""
+      },
+      {
+        "abilityID": "Explode",
+        "abilityName": "Monster_FauneAbyssale_JellyFish_Bullet_Explode",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 3.0
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "speed": 7.5,
+      "maxSpeed": 7.5,
+      "acceleration": -3.75,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "triggerType": "TriggerAlways",
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_JellyFish_Bullet_Explode"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_Jelly_BulletExplode": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 1.2000000476837158,
+        "scaleY": 1.2000000476837158,
+        "scaleZ": 1.2000000476837158
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isInvincible": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "hitAutoRedirect": false,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "Monster_FauneAbyssale_JellyFish_BulletWarning_Loop",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 2.0
+    }
+  },
+  "Monster_FauneAbyssale_JellyFish_MagicWaterBall": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP"
+      }
+    },
+    "hasModel": true,
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Loop",
+        "abilityName": "Monster_FauneAbyssale_JellyFish_MagicWaterBallLoop",
+        "abilityOverride": ""
+      },
+      {
+        "abilityID": "Explode",
+        "abilityName": "Monster_FauneAbyssale_JellyFish_MagicWaterBallExplode",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 10.0
+    },
+    "move": {
+      "$type": "CKKGDBAFLHI",
+      "speed": 4.800000190734863,
+      "maxSpeed": 4.800000190734863,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      },
+      "traceOnYAxis": true
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_JellyFish_MagicWaterBallExplode"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_JellyFish_MagicWaterBallExplode"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_Jelly_MagicWaterBall_ExplodeArea": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP"
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isInvincible": true,
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "hitAutoRedirect": false,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "Monster_FauneAbyssale_Jelly_MagicWaterBall_ExplodeArea",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 6.0
+    }
+  },
+  "Monster_FauneAbyssale_JellyFish_MagicWaterBall02": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleZ": 0.4000000059604645
+      }
+    },
+    "hasModel": true,
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Loop",
+        "abilityName": "Monster_FauneAbyssale_JellyFish_BubbleArray_BubbleLoop",
+        "abilityOverride": ""
+      },
+      {
+        "abilityID": "Explode",
+        "abilityName": "Monster_FauneAbyssale_JellyFish_BubbleArray_BubbleExplode",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 22.5
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "speed": 4.5,
+      "maxSpeed": 4.5,
+      "acceleration": -0.800000011920929,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_JellyFish_BubbleArray_BubbleExplode"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Monster_FauneAbyssale_JellyFish_BubbleArray_BubbleExplode"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_Jelly_ControlledMagicBallEmitter": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP"
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isInvincible": true,
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "hitAutoRedirect": false,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "Monster_FauneAbyssale_Jelly_ControlledMagicBallEmitter_TriggerBullet",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 6.0
+    }
+  },
+  "Monster_FauneAbyssale_Jelly_ControlledMagicBall_Liner": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleZ": 0.4000000059604645
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Explode",
+        "abilityName": "ControlledMagicBall_Explode",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 10.0
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "speed": 20.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Alliance"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "ControlledMagicBall_Explode"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "ControlledMagicBall_Explode"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Monster_FauneAbyssale_Jelly_ControlledMagicBall_Track": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP"
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "hp": 999999.0,
+        "attack": 15.0,
+        "defense": 999999.0,
+        "isLockHP": true,
+        "isGhostToAllied": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Explode",
+        "abilityName": "ControlledMagicBall_Explode",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 3.0
+    },
+    "move": {
+      "$type": "CKKGDBAFLHI",
+      "speed": 15.0,
+      "anglerVelocity": 120.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM",
+        "traceLerpCoef": 360.0
+      },
+      "traceOnYAxis": true
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Alliance"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "ControlledMagicBall_Explode"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "ControlledMagicBall_Explode"
+        }
+      ],
+      "killByOther": true
+    }
+  }
+}

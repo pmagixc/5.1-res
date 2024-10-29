@@ -1,0 +1,372 @@
+{
+  "Ayato_ExtraAttack_Bullet": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP"
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Avatar_Ayato_ExtraAttack_Bullet",
+        "abilityName": "Avatar_Ayato_ExtraAttack_Bullet",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 0.25
+    },
+    "move": {
+      "$type": "EHHEIDANGFM",
+      "attachPoint": "",
+      "followRotation": true,
+      "offset": {
+        "y": 1.0399999618530273
+      },
+      "KBDMLAPFKME": {
+        "z": 1.0
+      },
+      "OMIMBHHOIKP": ""
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "ccd": {
+          "damageRatio": "Always"
+        },
+        "triggerType": "TriggerNoRepeat",
+        "targetType": "Enemy",
+        "ignoreScene": true
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Avatar_Ayato_ExtraAttack_Bullet"
+        }
+      ]
+    }
+  },
+  "Ayato_ElementalArt_Gadget": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP"
+      },
+      "affectedByWorld": true
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false,
+        "denyElementStick": true
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Gadget_Lv1"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Avatar_Ayato_ElementalArt_Gadget",
+        "abilityName": "Avatar_Ayato_ElementalArt_Gadget",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 6.0
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy",
+        "ignoreScene": true
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Avatar_Ayato_ElementalArt_Gadget"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "Avatar_Ayato_ElementalArt_Gadget"
+        }
+      ],
+      "killByOther": true
+    }
+  },
+  "Ayato_ElementalBurst_Gadget": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Avatar_Ayato_ElementalBurst_Gadget",
+        "abilityName": "Avatar_Ayato_ElementalBurst_Gadget",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 21.0
+    }
+  },
+  "Ayato_ElementalBurst_Gadget_1": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      "affectedByWorld": true
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "timer": {
+      "lifeTime": 1.0
+    }
+  },
+  "Ayato_Talent_Gadget": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToAllied": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      },
+      "animEvents": {
+        "SP_ATK04": {
+          "attackPattern": {
+            "$type": "KENCCOGAAGD",
+            "triggerType": "TriggerNoRepeat",
+            "massiveAttackRatio": 0.4000000059604645,
+            "born": {
+              "$type": "AHFGHCHEPOI",
+              "offset": {
+                "CDIPBMJGKAG": 0.0,
+                "FLCEJHPAGJE": 1.2999999523162842,
+                "PALGCCNEAFJ": 0.0
+              }
+            },
+            "size": {
+              "CDIPBMJGKAG": 8.0,
+              "FLCEJHPAGJE": 3.0,
+              "PALGCCNEAFJ": 7.0
+            }
+          },
+          "attackInfo": {
+            "attackTag": "NormalAttack_04",
+            "attenuationTag": "",
+            "attenuationGroup": "default",
+            "attackProperty": {
+              "actorGrassSubHurtDelta": 0.0,
+              "actorElementReactionCriticalHurtDelta": 0.0,
+              "elementType": "Water",
+              "KAMIECGOHOF": 25.0,
+              "strikeType": "Slash",
+              "enBreak": 60.0,
+              "attackType": "Melee",
+              "MOAKOIFHAIA": 0.0
+            },
+            "hitPattern": {
+              "onHitEffectName": "Eff_Avatar_Male_Sword_Ayato_Hit_02",
+              "hitImpulseY": "",
+              "hitImpulseType": "LV2",
+              "retreatType": "ByAttackerForward",
+              "hitHaltTime": 0.029999999329447746,
+              "hitHaltTimeScale": 0.009999999776482582
+            },
+            "cameraShake": {
+              "shakeType": "CustomVector",
+              "shakeRange": 0.10000000149011612,
+              "shakeTime": 0.11999999731779099,
+              "shakeDistance": 30.0,
+              "shakeDir": {
+                "x": -1.0,
+                "y": -1.0
+              }
+            },
+            "canBeModifiedBy": "OriginOwner"
+          }
+        },
+        "SP_ATK05": {
+          "attackPattern": {
+            "$type": "KENCCOGAAGD",
+            "triggerType": "TriggerNoRepeat",
+            "massiveAttackRatio": 0.4000000059604645,
+            "born": {
+              "$type": "AHFGHCHEPOI",
+              "offset": {
+                "CDIPBMJGKAG": 0.0,
+                "FLCEJHPAGJE": 1.2999999523162842,
+                "PALGCCNEAFJ": 0.0
+              }
+            },
+            "size": {
+              "CDIPBMJGKAG": 8.0,
+              "FLCEJHPAGJE": 3.0,
+              "PALGCCNEAFJ": 7.0
+            }
+          },
+          "attackInfo": {
+            "attackTag": "NormalAttack_05",
+            "attenuationTag": "",
+            "attenuationGroup": "default",
+            "attackProperty": {
+              "actorGrassSubHurtDelta": 0.0,
+              "actorElementReactionCriticalHurtDelta": 0.0,
+              "elementType": "Water",
+              "KAMIECGOHOF": 25.0,
+              "strikeType": "Slash",
+              "enBreak": 60.0,
+              "attackType": "Melee",
+              "MOAKOIFHAIA": 0.0
+            },
+            "hitPattern": {
+              "onHitEffectName": "Eff_Avatar_Male_Sword_Ayato_Hit_03",
+              "hitImpulseY": "",
+              "hitImpulseType": "LV2",
+              "retreatType": "ByAttackerForward",
+              "hitHaltTime": 0.029999999329447746,
+              "hitHaltTimeScale": 0.009999999776482582
+            },
+            "cameraShake": {
+              "shakeType": "CustomVector",
+              "shakeRange": 0.10000000149011612,
+              "shakeTime": 0.11999999731779099,
+              "shakeDistance": 30.0,
+              "shakeDir": {
+                "x": -1.0,
+                "y": 1.0
+              }
+            },
+            "canBeModifiedBy": "OriginOwner"
+          }
+        }
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "Avatar_Ayato_Talent6_Gadget",
+        "abilityName": "Avatar_Ayato_Talent6_Gadget",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 3.0
+    },
+    "stateLayers": {
+      "defaultLayer": {
+        "$type": "EBPLDNJIBAO",
+        "layerIndexName": "",
+        "CGKICJFCEEL": "",
+        "stateIDs": {
+          "Ayato_Talent_Gadget": {
+            "$type": "FJOEIHEJDPB",
+            "animatorStates": {
+              "Ayato_Talent_Gadget": [
+                "Ayato_Talent_Gadget"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

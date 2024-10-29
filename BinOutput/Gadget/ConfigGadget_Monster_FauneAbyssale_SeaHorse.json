@@ -1,0 +1,542 @@
+{
+  "FauneAbyssale_SeaHorse_Larva_Bubble": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "FauneAbyssale_SeaHorse_Larva_BubbleBullet",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 2.5
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "speed": 15.0,
+      "minSpeed": 15.0,
+      "anglerVelocity": 80.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      },
+      "syncOptimized": true
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy",
+        "ignoreWater": true
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "FauneAbyssale_SeaHorse_Larva_BubbleBullet"
+        }
+      ]
+    }
+  },
+  "FauneAbyssale_SeaHorse_Frolic_Bubble": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "FauneAbyssale_SeaHorse_Larva_FrolicBubble",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 2.5
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "speed": 16.0,
+      "minSpeed": 15.0,
+      "anglerVelocity": 0.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      },
+      "syncOptimized": true
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "AllExceptSelf",
+        "ignoreWater": true,
+        "bornWithTriggerEnabled": false
+      },
+      "colliderCheckOnInit": false,
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "FauneAbyssale_SeaHorse_Larva_FrolicBubble"
+        }
+      ],
+      "enableCollisionDelay": 0.125,
+      "resetLastPosOnDelayEnd": true
+    }
+  },
+  "FauneAbyssale_SeaHorse_Mature_BallLightning": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "FauneAbyssale_SeaHorse_Mature_BallLightning",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 2.200000047683716
+    },
+    "move": {
+      "$type": "MBPJIILBDNH",
+      "speed": 7.0,
+      "minSpeed": 2.0,
+      "anglerVelocity": 90.0,
+      "acceleration": -3.5,
+      "accelerationTime": 2.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      },
+      "guidanceMinAnglerVelocity": 90.0,
+      "guidanceDuration": 1.2000000476837158
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy",
+        "ignoreWater": true
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "FauneAbyssale_SeaHorse_Mature_BallLightning"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "FauneAbyssale_SeaHorse_Mature_BallLightning"
+        }
+      ]
+    }
+  },
+  "FauneAbyssale_SeaHorse_Mature_WaterBullet": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "FauneAbyssale_SeaHorse_Mature_WaterBullet",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 1.0
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "speed": 20.0,
+      "minSpeed": 30.0,
+      "anglerVelocity": 0.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      },
+      "syncOptimized": true
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "ccd": {
+          "damageRatio": "Always"
+        },
+        "targetType": "Enemy",
+        "ignoreWater": true
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "FauneAbyssale_SeaHorse_Mature_WaterBullet"
+        }
+      ]
+    }
+  },
+  "FauneAbyssale_SeaHorse_Mature_ElectronicLazer": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "canTriggerBullet": false
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "timer": {
+      "lifeTime": 0.14300000667572021
+    },
+    "move": {
+      "$type": "OEBOENCFNPO",
+      "velocityForce": {
+        "excludeForces": [
+          "WindZoneType",
+          "AirflowType"
+        ]
+      },
+      "speed": 175.0,
+      "maxSpeed": 175.0,
+      "anglerVelocity": 0.0,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      }
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "ccd": {
+          "damageRatio": "Always"
+        },
+        "targetType": "Enemy",
+        "ignoreWater": true
+      },
+      "triggerActions": [
+        {
+          "$type": "EIIEKLEHCAO",
+          "attackInfo": {
+            "attackTag": "",
+            "attenuationTag": "",
+            "attenuationGroup": "default",
+            "attackProperty": {
+              "actorGrassSubHurtDelta": 1.0,
+              "actorElementReactionCriticalHurtDelta": 0.0,
+              "elementType": "Electric",
+              "KAMIECGOHOF": 25.0,
+              "enBreak": 200.0,
+              "MOAKOIFHAIA": 0.0
+            },
+            "hitPattern": {
+              "onHitEffectName": "default",
+              "hitImpulseY": "",
+              "hitImpulseType": "",
+              "overrideHitImpulse": {
+                "hitLevel": "Heavy",
+                "KFLAGOAPLNJ": 800.0
+              },
+              "retreatType": "ByHitDirection"
+            }
+          }
+        }
+      ],
+      "maxAutoKillDist": 25.0,
+      "resetLastPosOnDelayEnd": true
+    }
+  },
+  "FauneAbyssale_SeaHorse_Mature_ElectronicCone": {
+    "$type": "ADFAEEFICKI",
+    "common": {
+      "effectAttachShape": {
+        "$type": "NHAJCOGHCAP",
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      }
+    },
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      },
+      "animEvents": {
+        "BulletAtk": {
+          "attackPattern": {
+            "$type": "MMOOLAGJPJK",
+            "triggerType": "TriggerNoRepeat",
+            "born": {
+              "$type": "GPCCHEEOOPO"
+            },
+            "LGPPLOHDCAH": 0.5
+          },
+          "attackInfo": {
+            "attackTag": "",
+            "attenuationTag": "",
+            "attenuationGroup": "default",
+            "attackProperty": {
+              "actorGrassSubHurtDelta": 0.3499999940395355,
+              "actorElementReactionCriticalHurtDelta": 0.0,
+              "elementType": "Electric",
+              "KAMIECGOHOF": 25.0,
+              "strikeType": "Default",
+              "enBreak": 60.0,
+              "attackType": "Range",
+              "MOAKOIFHAIA": 0.0
+            },
+            "hitPattern": {
+              "onHitEffectName": "default",
+              "hitImpulseY": "",
+              "hitImpulseType": "LV2"
+            },
+            "canBeModifiedBy": "Owner"
+          }
+        },
+        "BulletAtk_Overtime": {
+          "attackPattern": {
+            "$type": "MMOOLAGJPJK",
+            "triggerType": "TriggerNoRepeat",
+            "born": {
+              "$type": "GBLKMJMIMDM",
+              "useRotation": true,
+              "attachPointName": "RootNode"
+            },
+            "LGPPLOHDCAH": 0.5
+          },
+          "attackInfo": {
+            "attackTag": "",
+            "attenuationTag": "",
+            "attenuationGroup": "default",
+            "attackProperty": {
+              "actorGrassSubHurtDelta": 0.3499999940395355,
+              "actorElementReactionCriticalHurtDelta": 0.0,
+              "elementType": "Electric",
+              "KAMIECGOHOF": 25.0,
+              "strikeType": "Default",
+              "enBreak": 60.0,
+              "attackType": "Range",
+              "MOAKOIFHAIA": 0.0
+            },
+            "hitPattern": {
+              "onHitEffectName": "default",
+              "hitImpulseY": "",
+              "hitImpulseType": "LV2"
+            },
+            "canBeModifiedBy": "Owner"
+          }
+        }
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "FauneAbyssale_SeaHorse_Mature_ElectronicCone",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeTime": 2.5
+    },
+    "move": {
+      "$type": "MBPJIILBDNH",
+      "speed": 18.0,
+      "minSpeed": 18.0,
+      "anglerVelocity": 680.0,
+      "acceleration": 3.0,
+      "accelerationTime": 0.5,
+      "GLMOEEENGIL": {
+        "$type": "KIBMJGGJGGM"
+      },
+      "guidanceDelay": 0.09000000357627869,
+      "guidanceMinAnglerVelocity": 680.0,
+      "guidanceDuration": 0.30000001192092896
+    },
+    "gadget": {
+      "$type": "OGENOALLFLB",
+      "collision": {
+        "targetType": "Enemy"
+      },
+      "triggerActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "FauneAbyssale_SeaHorse_Mature_ElectronicCone"
+        },
+        {
+          "$type": "CIKKBEDPGNM",
+          "attackEvent": "BulletAtk"
+        }
+      ],
+      "triggerLifeOverActions": [
+        {
+          "$type": "KNOBDPJJKFJ",
+          "abilityName": "FauneAbyssale_SeaHorse_Mature_ElectronicCone"
+        },
+        {
+          "$type": "CIKKBEDPGNM",
+          "attackEvent": "BulletAtk_Overtime"
+        }
+      ]
+    }
+  },
+  "FauneAbyssale_SeaHorse_Mature_ElectronicLazer_TargetPoint": {
+    "$type": "ADFAEEFICKI",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
+    },
+    "combatTemplate": "",
+    "timer": {
+      "lifeTime": 0.800000011920929
+    }
+  },
+  "FauneAbyssale_SeaHorse_Mature_Pearl": {
+    "$type": "ADFAEEFICKI",
+    "combat": {
+      "property": {
+        "useCreatorProperty": true,
+        "isLockHP": true
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "lockType": "Boss_Lv5"
+      }
+    },
+    "combatTemplate": "",
+    "abilities": [
+      {
+        "abilityID": "",
+        "abilityName": "FauneAbyssale_SeaHorse_Mature_PearlGadget",
+        "abilityOverride": ""
+      }
+    ],
+    "timer": {
+      "lifeInfinite": true
+    },
+    "move": {
+      "$type": "EHHEIDANGFM",
+      "target": "TargetEntity",
+      "attachPoint": "Pearl",
+      "followRotation": true,
+      "OMIMBHHOIKP": ""
+    },
+    "billboard": {
+      "$type": "PNDKMHNPMEA",
+      "attachPoint": "BillboardAttach",
+      "offset": {
+        "y": -0.10000000149011612,
+        "z": 0.4000000059604645
+      },
+      "offsetType": "Character",
+      "radiusOffset": 0.4000000059604645,
+      "showDistance": 32.0,
+      "showHPBar": true,
+      "forceShowDistance": 24.0,
+      "shieldBarOnly": true
+    }
+  }
+}
